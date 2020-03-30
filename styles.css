@@ -191,6 +191,20 @@ header .profile-image:hover {
   border: 1.5px solid
 }
 
+.girlscouts-header {
+  background-color: #40a339;
+  color: white;
+  border-color: #1f5b1c;
+  border: 2.5px solid
+}
+
+.girlscouts-b {
+  background-color: #40a339;
+  color: white;
+  border-color: #1f5b1c;
+  border: 1.5px solid
+}
+
 .card-main {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -263,6 +277,36 @@ header .profile-image:hover {
 
 .card-science a:hover {
   color: #a04f2a;
+}
+
+.card-girlscouts {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border: 4px solid #1f5b1c;
+  border-radius: 8px;
+  transition: all .7s;
+  background-color: #40a339;
+  color: white;
+}
+
+.card-girlscouts:hover {
+  border-color: #172f13;
+}
+
+.card-girlscouts a {
+  color: black;
+}
+
+.card-girlscouts a:hover {
+  color: #bbd8b3;
+}
+
+.scribeimg {
+  width: 30%;
+  display: inline-block;
 }
 
 .card-music,
